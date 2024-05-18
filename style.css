@@ -1,0 +1,78 @@
+body{
+    padding: 50px;
+    background-image: Url("img/img9.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+      padding-bottom: 50px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+    background-color: #0000003d;
+    padding-bottom: 40%;
+}
+.form-groub{
+    margin-bottom: 30px;
+    border-bottom: 2px solid #d8a45e2b;
+    margin-top: 20%;
+    margin-bottom: 0%;
+}
+.form-control{
+ border: none;
+  margin-top: 10%;
+  background-color: transparent;
+  color:aliceblue;
+}
+.form-control::placeholder{
+    color:#dbab694f;
+   }
+ .form-control:focus{
+    background-color: #51124100;
+    border:none;
+    color:aliceblue;
+ }  
+ .btn.btn-primary {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
+   background-color: #8d5757;
+   color: #11212a;
+  }
+/*////////navegation bar ////////*/
+nav ul {
+display:flex;
+padding :0;
+margin :0;
+list-style-type: none;
+font-size: larger;
+}
+nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #884444;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+  }
+  
+  nav ul li a:hover {
+    border-bottom: 2px solid #6d4e4e; /* Underline effect */
+  }
+  
+  /*nav ul li a.active {
+    border-bottom: 2px solid #4a3939; /* Underline effect on active link */
+  
+.container input{
+    border:none;
+}
+/*///////erroes*/
+.er{
+    background-color: #ffcccc; /* Light red background for error messages */
+    color: #cc0000; /* Dark red text color for error messages */
+}
